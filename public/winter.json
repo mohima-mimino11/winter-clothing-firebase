@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Winter Clothes Drive for Children",
+    "image": "https://pmedia.launchgood.com/137986%2Fbody%2FFacebook_Cover-Winter_Drive_launchgood.jpg",
+    "description": "Help keep underprivileged children warm this winter by donating coats, hats, gloves, and boots.",
+    "status": "Active",
+    "contactInfo": "winterkids@donatenow.org",
+    "division": "North"
+  },
+  {
+    "id": 2,
+    "title": "Blankets for the Homeless",
+    "image": "https://bgcpbc.org/wp-content/uploads/2021/02/Craftivism-2-scaled-1.jpg",
+    "description": "Join our campaign to distribute warm blankets to those sleeping rough during freezing nights.",
+    "status": "Active",
+    "contactInfo": "shelterhelp@donatenow.org",
+    "division": "West"
+  },
+  {
+    "id": 3,
+    "title": "Warm Meals for Winter",
+    "image": "https://pmedia.launchgood.com/180515%2Fbody%2FAfgha_1.jpg",
+    "description": "Support our initiative to provide hot meals to families in need throughout the cold season.",
+    "status": "Upcoming",
+    "contactInfo": "mealsupport@donatenow.org",
+    "division": "South"
+  },
+  {
+    "id": 4,
+    "title": "Heaters for Seniors",
+    "image": "https://assistinghands.com/85/wp-content/uploads/sites/118/2023/01/AH-Blog-Images-and-Graphics-30.jpg",
+    "description": "We’re collecting funds and heaters for elderly citizens who cannot afford heating this winter.",
+    "status": "Active",
+    "contactInfo": "seniorcare@donatenow.org",
+    "division": "East"
+  },
+  {
+    "id": 5,
+    "title": "Winter Care Kits for Refugees",
+    "image": "https://backend.alwahabfoundation.org/wp-content/uploads/2024/11/winter-survival-kits-awf-afghanistan.jpg",
+    "description": "Help us prepare and distribute winter care kits including thermal wear, socks, and hygiene items.",
+    "status": "Active",
+    "contactInfo": "refugeesupport@donatenow.org",
+    "division": "Central"
+  },
+  {
+    "id": 6,
+    "title": "Snow Boots for School Kids",
+    "image": "https://media.istockphoto.com/id/497577168/photo/children-walking-outside-in-winter.jpg?s=612x612&w=0&k=20&c=CkuRVK7AJV4ZJPAMzTCAVjhbJA2aZsJylHNNEakWhRA=",
+    "description": "We're collecting new or gently-used snow boots to help school children stay dry and warm.",
+    "status": "Completed",
+    "contactInfo": "bootsforkids@donatenow.org",
+    "division": "North"
+  }
+]
