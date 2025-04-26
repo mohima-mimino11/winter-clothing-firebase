@@ -4,6 +4,7 @@ import HomePage from "../pages/HomePage";
 import DonationCampaign from "../pages/DonationCampaign";
 import Dashboard from "../pages/Dashboard";
 import ErrorPage from "../pages/ErrorPage";
+import AuthLayout from "../layout/AuthLayout";
 
 
 const router = createBrowserRouter([
@@ -13,26 +14,33 @@ const router = createBrowserRouter([
     children:[
       {
         path:"",
-        element: <HomePage></HomePage>
-      }
+        element: <HomePage></HomePage>,
+      },
+      {
+        path: "/donation",
+        element: <DonationCampaign></DonationCampaign>
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>
+      },
     ]
   },
   {
-    path: "/donation",
-    element: <DonationCampaign></DonationCampaign>
+    path: "/auth",
+    element: <AuthLayout></AuthLayout>,
+    children: [
+      {
+        path: "/auth/login",
+        element: <h3>This is login page</h3>
+      },
+      {
+        path: "/auth/register",
+        element: <h3>This is register page</h3>
+      },
+    ]
   },
-  {
-    path: "/dashboard",
-    element: <Dashboard></Dashboard>
-  },
-  {
-    path: "/login",
-    element: <h3>This is login page</h3>
-  },
-  {
-    path: "/register",
-    element: <h3>This is register page</h3>
-  },
+  
   {
     path: "*",
     element: <ErrorPage></ErrorPage>
