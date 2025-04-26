@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const links = <>
-    <li className='text-lg font-semibold'><Link to="/" >Home</Link> </li>
-    <li className='text-lg font-semibold'><Link to="/donation" >Donation Campaigns</Link> </li>
-    <li className='text-lg font-semibold'><Link to="/" >How to Help</Link> </li>
-    <li className='text-lg font-semibold'><Link to="/dashboard" >Dashboard</Link> </li>
+    <li className='text-lg font-semibold text-slate-500'><Link to="/" >Home</Link> </li>
+    <li className='text-lg font-semibold text-slate-500'><Link to="/donation" >Donation Campaigns</Link> </li>
+    <li className='text-lg font-semibold text-slate-500'><Link to="/" >How to Help</Link> </li>
+    <li className='text-lg font-semibold text-slate-500'><Link to="/dashboard" >Dashboard</Link> </li>
 
   </>
   return (
